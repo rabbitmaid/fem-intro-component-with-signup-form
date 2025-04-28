@@ -169,7 +169,7 @@ main {
 
 /* Use Media queries for Responsiveness */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
     
     main {
         display: flex;
