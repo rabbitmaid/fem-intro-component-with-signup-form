@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <main>
+
+      <section class="content_area">
+          <h1>Learn to code by watching others</h1>
+          <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable.</p>
+      </section>
+
+
+      <section class="form_area">
+
+          <div class="notice"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
+
+          <form action="" id="trial_form">
+
+              <div class="form-group">
+                <input type="text" placeholder="First Name" id="firstName">
+                <div id="firstNameError" class="error hidden"></div>
+                <img src="./assets/images/icon-error.svg" alt="error icon" class="error-icon hidden" />
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="Last Name " id="lastName">
+                <div id="lastNameError" class="error hidden"></div>
+                <img src="./assets/images/icon-error.svg" alt="error icon" class="error-icon hidden" />
+              </div>
+
+              <div class="form-group">
+                <input type="email" placeholder="Email Address" id="email">
+                <div id="emailError" class="error hidden"></div>
+                <img src="./assets/images/icon-error.svg" alt="error icon" class="error-icon hidden" />
+              </div>
+
+              <div class="form-group">
+                <input type="password" placeholder="Password" id="password">
+                <div id="passwordError" class="error hidden"></div>
+                <img src="./assets/images/icon-error.svg" alt="error icon" class="error-icon hidden" />
+              </div>
+
+              <button type="submit">Claim your free trial </button>
+
+              <p class="terms"> By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+
+          </form>
+
+      </section>
+
+
+  </main>
+
+<script src="./assets/app.js"></script>
+</body>
+</html>
